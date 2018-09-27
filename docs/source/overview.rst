@@ -2,7 +2,7 @@ Overview
 ========
 What?
 ----
-Easiest to describe The Mozilla Defense Platform (MozDef) as a set of micro-services you can use as an open source Security Informaition and Event Management (SIEM) overlay on top of Elasticsearch.
+Easiest to describe The Mozilla Defense Platform (MozDef) as a set of micro-services you can use as an open source Security Information and Event Management (SIEM) overlay on top of Elasticsearch.
 
 Why?
 ----
@@ -39,14 +39,14 @@ MozDef aims to provide traditional SIEM functionality including:
 * Storing events/logs
 * Facilitating searches
 * Facilitating alerting
-* Facilitating log management (archiving,restoration)
+* Facilitating log management (archiving, restoration)
 
 It is non-traditional in that it:
 
 * Accepts only JSON input
 * Provides you open access to your data
 * Integrates with a variety of log shippers including logstash, beaver, nxlog, syslog-ng and any shipper that can send JSON to either rabbit-mq or an HTTP(s) endpoint.
-* Provides easy integration to Cloud-based data sources such as cloudtrail or guard duty
+* Provides easy integration to cloud-based data sources such as cloudtrail or guard duty
 * Provides easy python plugins to manipulate your data in transit
 * Provides extensive plug-in opportunities to customize your event enrichment stream, your alert workflow, etc
 * Provides realtime access to teams of incident responders to allow each other to see their work simultaneously
